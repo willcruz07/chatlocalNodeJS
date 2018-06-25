@@ -25,7 +25,7 @@ let messages = [];
 io.on('connection', socket => {
     console.log("Socket conectado: ${socket.id}");
 
-// enviando todas as mensages anteriores para quando atualizar a pagina
+// enviando todas as mensages anteriores para quando atualizar a pagina"
     socket.emit('previousMessages', messages);
 
     socket.on('sendMessage', data => {
@@ -36,4 +36,6 @@ io.on('connection', socket => {
     });
 });
 
-server.listen(3000);
+server.listen(3000, function(){
+    console.log("servidor rodando...");
+});

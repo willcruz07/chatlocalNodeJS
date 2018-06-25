@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
     height: 100%;
   }
   
@@ -23,8 +23,8 @@ html, body {
     padding: 0 20px;
     font-size: 14px;
   }
-  
-  button {
+   */
+  /* button {
     width: 600px;
     height: 50px;
     font-size: 14px;
@@ -34,7 +34,7 @@ html, body {
     font-weight: bold;
     color: #FFF;
     margin-top: 10px;
-  }
+  } */
   
   .messages {
     width: 600px;
@@ -42,4 +42,5 @@ html, body {
     margin: 20px 0;
     border: 1px solid #ddd;
     padding: 20px;
+    position: relative;
   }
