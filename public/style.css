@@ -43,4 +43,5 @@
     border: 1px solid #ddd;
     padding: 20px;
     position: relative;
+    overflow-y: auto;
   }
